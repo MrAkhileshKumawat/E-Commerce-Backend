@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken")
-const knex = require("./dbConnection")
+const knex = require("../dbConnection")
 secret_key = process.env.SECRET_KEY
 
 const isverfy = (req,res,next)=>{
