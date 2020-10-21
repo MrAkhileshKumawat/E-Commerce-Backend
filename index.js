@@ -4,7 +4,7 @@ const express = require("express")
 const app = express()
 const knex = require("./dbConnection")
 const jwt = require("jsonwebtoken")
-const isverify = require("./middleware")
+const isverify = require("./middleware/middleware")
 const secret_key = process.env.SECRET_KEY
 app.use(express.json())
 
